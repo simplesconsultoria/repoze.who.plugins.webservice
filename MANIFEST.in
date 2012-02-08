@@ -1,0 +1,6 @@
+include *.txt
+include *.rst
+include *.ini
+recursive-include repoze *
+recursive-include docs *
+global-exclude *pyc
