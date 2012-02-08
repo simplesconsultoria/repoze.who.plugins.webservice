@@ -21,7 +21,7 @@ Using a who config file:
 
    [plugin:webservice]
    use = repoze.who.plugins.webservice:WebServicesPlugin
-   url = zeo://localhost:8884/ # see repoze.zodbconn
+   url = http://foobar:8080/validate_user
    timeout = 2
    login_field = login
    password_field = password
